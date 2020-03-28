@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#985252"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+     <TextView
+         android:id="@+id/title_text_view_id"
+         android:layout_margin="15dp"
+         android:textSize="25dp"
+         android:textStyle="bold"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:text="@string/title"
+         />
+    <RadioGroup
+        android:id="@+id/radio_group_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/male_buttonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            />
+        <RadioButton
+            android:id="@+id/female_buttonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            />
+        <RadioButton
+            android:id="@+id/others_buttonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/others"
+            android:textSize="20sp"
+            />
+
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/show_buttonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="@string/button"
+        android:textAllCaps="false"
+        android:background="#5C4D4D"
+        />
+    <TextView
+        android:id="@+id/resultId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="normal"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
